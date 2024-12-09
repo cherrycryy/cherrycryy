@@ -1,36 +1,19 @@
-
+/* Set text color to red for the entire page */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: red; /* Change all text color to red */
+    color: red; /* Set all text to red */
 }
 
-
-header {
-    background: #333;
-    color: red; /* Change header text color to red */
-    padding: 1rem 0;
-    text-align: center;
-    border: 2px solid red; /* Add red border around header */
+/* Set links to be red */
+a {
+    color: red;
+    text-decoration: none; /* Optional: remove underline */
 }
 
-
-main {
-    margin: 2rem auto;
-    width: 90%;
-    max-width: 800px;
-    border: 2px solid red; /* Add red border around main content */
-    padding: 1rem; /* Add some padding inside the main area */
-}
-
-
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background: #333;
-    color: red; /* Change footer text color to red */
-    border: 2px solid red; /* Add red border around footer */
+a:hover {
+    color: darkred; /* Optional: change color on hover */
 }
