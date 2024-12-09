@@ -1,28 +1,36 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: #333;
+    color: red; /* Change all text color to red */
 }
+
 
 header {
     background: #333;
-    color: #fff;
+    color: red; /* Change header text color to red */
     padding: 1rem 0;
     text-align: center;
+    border: 2px solid red; /* Add red border around header */
 }
+
 
 main {
     margin: 2rem auto;
     width: 90%;
     max-width: 800px;
+    border: 2px solid red; /* Add red border around main content */
+    padding: 1rem; /* Add some padding inside the main area */
 }
+
 
 footer {
     text-align: center;
     padding: 1rem 0;
     background: #333;
-    color: #fff;
+    color: red; /* Change footer text color to red */
+    border: 2px solid red; /* Add red border around footer */
 }
